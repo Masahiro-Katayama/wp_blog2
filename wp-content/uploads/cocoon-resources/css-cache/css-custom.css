@@ -16,7 +16,7 @@
 .demo .cat-label,
 .blogcard-type .blogcard::before,
 #footer{
-  background-color: #ba1818;
+  background-color: #d8320f;
 }
 #navi .navi-in a:hover,
 #footer a:hover{
@@ -28,23 +28,23 @@
 .article h6,
 .cat-link,
 .tag-link{
-  border-color: #ba1818;
+  border-color: #d8320f;
 }
 blockquote::before, blockquote::after,
 .pager-post-navi a.a-wrap::before {
-  color: rgba(186, 24, 24, 0.5);
+  color: rgba(216, 50, 15, 0.5);
 }
 blockquote,
 .key-btn {
-  background-color: rgba(186, 24, 24, 0.05);
-  border-color: rgba(186, 24, 24, 0.5);
+  background-color: rgba(216, 50, 15, 0.05);
+  border-color: rgba(216, 50, 15, 0.5);
 }
 pre,
 .pager-links span,
 table th,
 .pagination .current {
-  background-color: rgba(186, 24, 24, 0.1);
-  border-color: rgba(186, 24, 24, 0.5);
+  background-color: rgba(216, 50, 15, 0.1);
+  border-color: rgba(216, 50, 15, 0.5);
 }
 table th,
 table td,
@@ -60,7 +60,7 @@ table td,
 .author-box,
 .comment-reply-link,
 .ranking-item{
-  border-color: rgba(186, 24, 24, 0.5)}
+  border-color: rgba(216, 50, 15, 0.5)}
 table tr:nth-of-type(2n+1),
 .page-numbers.dots,
 .a-wrap:hover,
@@ -77,7 +77,7 @@ table tr:nth-of-type(2n+1),
 /*.cat-link:hover,*/
 .tag-link:hover,
 .tagcloud a:hover{
-  background-color: rgba(186, 24, 24, 0.05);
+  background-color: rgba(216, 50, 15, 0.05);
 }
 .header,
 .header .site-name-text,
@@ -89,9 +89,15 @@ table tr:nth-of-type(2n+1),
 #footer a{
   color: #fff;
 }
+.header .header-in{
+  min-height: 500px;
+}
+.header{
+  background-image: url(http://localhost/wordpress_blog2/wp-content/uploads/2019/10/playmobil-765110_1920.jpg);
+}
 #header-container .navi,
 #navi .navi-in > .menu-header .sub-menu{
-  background-color: #89c997;
+  background-color: #3e7fdd;
 }
 #navi .navi-in a,
 #navi .navi-in a:hover{
@@ -99,6 +105,12 @@ table tr:nth-of-type(2n+1),
 }
 #navi .navi-in a:hover{
   background-color: rgba(255, 255, 255, 0.2);
+}
+.go-to-top .go-to-top-button{
+  background-color: #000000;
+}
+.go-to-top .go-to-top-button{
+  color: #ffffff;
 }
 .main{
   width: 832px;
@@ -165,6 +177,9 @@ table tr:nth-of-type(2n+1),
 #respond {
   display: none;
 }
+#footer {
+  background: #3e7fdd;
+}
 .entry-content > *,
 .demo .entry-content p {
   line-height: 1.8;
@@ -188,49 +203,49 @@ table tr:nth-of-type(2n+1),
   margin-bottom: 1.4em;
 }
   .blank-box.bb-key-color{
-  border-color: #ba1818;
+  border-color: #d8320f;
 }
 .iic-key-color li::before{
-  color: #ba1818;
+  color: #d8320f;
 }
 .blank-box.bb-tab.bb-key-color::before {
-  background-color: #ba1818;
+  background-color: #d8320f;
 }
 .tb-key-color .toggle-button {
-  border: 1px solid #ba1818;
-  background: #ba1818;
+  border: 1px solid #d8320f;
+  background: #d8320f;
   color: #fff;
 }
 .tb-key-color .toggle-button::before {
   color: #ccc;
 }
 .tb-key-color .toggle-checkbox:checked ~ .toggle-content {
-  border-color: #ba1818;
+  border-color: #d8320f;
 }
 .cb-key-color.caption-box {
-  border-color: #ba1818;
+  border-color: #d8320f;
 }
 .cb-key-color .caption-box-label {
-  background-color: #ba1818;
+  background-color: #d8320f;
   color: #fff;
 }
 .tcb-key-color .tab-caption-box-label {
-  background-color: #ba1818;
+  background-color: #d8320f;
   color: #fff;
 }
 .tcb-key-color .tab-caption-box-content {
-  border-color: #ba1818;
+  border-color: #d8320f;
 }
 .lb-key-color .label-box-content {
-  border-color: #ba1818;
+  border-color: #d8320f;
 }
 .mc-key-color {
-  background-color: #ba1818;
+  background-color: #d8320f;
   color: #fff;
   border: none;
 }
 .mc-key-color.micro-bottom::after {
-  border-bottom-color: #ba1818;
+  border-bottom-color: #d8320f;
   border-top-color: transparent;
 }
 .mc-key-color::before {
@@ -238,16 +253,16 @@ table tr:nth-of-type(2n+1),
   border-bottom-color: transparent;
 }
 .mc-key-color::after {
-  border-top-color: #ba1818;
+  border-top-color: #d8320f;
 }
 .btn-key-color, .btn-wrap.btn-wrap-key-color > a {
-  background-color: #ba1818;
+  background-color: #d8320f;
 }
 .has-text-color.has-key-color-color {
-  color: #ba1818;
+  color: #d8320f;
 }
 .has-background.has-key-color-background-color {
-  background-color: #ba1818;
+  background-color: #d8320f;
 }
 .article.page-body,
 body#tinymce.wp-editor{
@@ -257,10 +272,10 @@ body#tinymce.wp-editor{
 body#tinymce.wp-editor{
   color: #333}
     div .has-key-color-color {
-      color: #ba1818;
+      color: #d8320f;
     }
     div .has-key-color-background-color {
-      background-color: #ba1818;
+      background-color: #d8320f;
     }
       div .has-red-color {
       color: #e60033;

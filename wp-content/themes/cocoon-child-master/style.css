@@ -36,10 +36,6 @@ Version:    1.0.8
   line-height: 1.3;
 }
 
-#header-container #navi {
-  background: #89c997;
-}
-
 #header-container #navi a {
   color: #fff;
   padding: 0.8em 1em;
@@ -106,6 +102,15 @@ Version:    1.0.8
   }
 }
 
+.menu-item a {
+  border-radius: 50px;
+}
+
+.menu-item a:hover {
+  background: #a7f032 !important;
+  color: #000 !important;
+}
+
 .wp-show-posts-image img {
   height: 230px !important;
   -o-object-fit: cover !important;
@@ -115,7 +120,8 @@ Version:    1.0.8
 .catagory {
   height: 50px;
   line-height: 50px;
-  background: #89c997;
+  background: #3e7fdd;
+  border-radius: 10px;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -138,6 +144,21 @@ Version:    1.0.8
 
 .entry-content p {
   margin: 0;
+}
+
+.new-entry-card-date {
+  display: block;
+}
+
+.new-entry-card-update-date {
+  display: none;
+}
+
+.home h2 {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 12px;
+  border-radius: 10px;
 }
 
 .home .sns-follow-buttons {
@@ -192,6 +213,14 @@ Version:    1.0.8
 
 .author-box {
   margin: 18px auto;
+}
+
+.author-follows {
+  display: none;
+}
+
+.widget-sidebar-title {
+  border-radius: 10px !important;
 }
 
 .sidebar .sns-follow-buttons a {
@@ -249,5 +278,11 @@ Version:    1.0.8
   height: 230px;
   -o-object-fit: cover !important;
      object-fit: cover !important;
+}
+
+.footer-bottom-content {
+  position: relative;
+  top: -20px;
+  left: 0;
 }
 /*# sourceMappingURL=style.css.map */
